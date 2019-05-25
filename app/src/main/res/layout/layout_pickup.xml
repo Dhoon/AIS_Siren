@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/Starbucks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/starbucks"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textColor="#ffffff"/>
+
+
+    <Button
+        android:id="@+id/btn_pickup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:layout_weight="1"
+        android:onClick="go_verify"
+        android:text="Pickup"
+        android:textColor="#ffffff"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_gray"/>
+
+</RelativeLayout>
